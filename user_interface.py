@@ -3,6 +3,7 @@ import tkinter as tk
 root = tk.Tk()
 root.title('Penilaian Kualitas Makanan')
 root.geometry('250x300')
+root.resizable(False,False)
 root.configure(padx=20,pady=20)
 
 label_karbo = tk.Label(root,text='Karbohidrat')
